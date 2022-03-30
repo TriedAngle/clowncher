@@ -2,8 +2,7 @@
 <h1 align="center"> Clowncher </h1>
 
 <p align="center">
-  <img src="https://github.com/TriedAngle/clowncher/workflows/Rust%20CI/badge.svg" alt="Rust CI Status">
-  <img src="https://travis-ci.com/TriedAngle/clowncher.svg?branch=main" alt="Build status">
+  <img src="https://github.com/TriedAngle/clowncher/actions/workflows/rust.yml/badge.svg" alt="Rust CI Status">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
 </p>
 
