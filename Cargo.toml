@@ -1,0 +1,24 @@
+[package]
+name = "clowncher"
+version = "0.1.0"
+edition = "2018"
+description = "League of Legends Launcher UI replacement"
+license = "Apache-2.0"
+
+[dependencies]
+eframe = "0.16.0"
+egui = { version = "0.16.1", features = ["multi_threaded"] }
+serde = { version = "1.0.133", features = ["derive"] }
+serde_json = "1.0.74"
+lazy_static = "1.4.0"
+tokio = { version = "1.15.0", features = ["rt"] }
+crossbeam = "0.8.1"
+chrono = "0.4.19"
+#kassadin = { version = "0.1", path = "../kassadin" }\
+kassadin = "0.1"
+websocket = "0.26.2"
+confy = "0.4.0"
+strum = "0.23.0"
+strum_macros = "0.23.1"
+image = "0.23.14"
+color-eyre = "0.6.0"
